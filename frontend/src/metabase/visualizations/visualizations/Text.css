@@ -1,0 +1,41 @@
+:local .Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  color: #525658;
+}
+:local .Text.dashboard-is-editing {
+  padding: 2.8em 1em 1em 1em;
+}
+:local .Text .text-card-textarea {
+  padding: .75em;
+  font-size: 1.12em;
+  font-family: monospace;
+  pointer-events: all;
+  resize: none;
+  outline: none;
+}
+:local .Text .Value {
+  font-weight: bold;
+}
+:local .Text .Title {
+  margin-top: 0.5em;
+}
+
+:local .Text.small .Value {
+  font-size: 2em;
+}
+:local .Text.small .Title {
+  font-size: 1em;
+}
+
+:local .Text.large {
+  align-items: center;
+}
+:local .Text.large .Value {
+  font-size: 2.5em;
+}
+:local .Text.large .Title {
+  font-size: 1.2em;
+}
